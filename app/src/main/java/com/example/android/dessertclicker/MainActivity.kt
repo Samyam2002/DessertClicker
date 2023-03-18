@@ -32,6 +32,10 @@ const val TAG="MainActivity"
 const val KEY_REVENUE = "revenue_key"
 const val KEY_DESSERT_SOLD = "dessert_sold_key"
 
+/**
+ * This activity allows the user to tap on a dessert, and the cost will increment according to the
+ * number of desserts clicked. The dessert also changes after a certain number of clicks.
+ */
 class MainActivity : AppCompatActivity() {
 
     private var revenue = 0
@@ -92,6 +96,9 @@ class MainActivity : AppCompatActivity() {
         binding.dessertButton.setImageResource(currentDessert.imageId)
     }
 
+    /**
+     * Implement all the activity lifecycle methods
+     */
     override fun onStart() {
         super.onStart()
         Log.d(TAG, "onStart Called")
