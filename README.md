@@ -22,7 +22,7 @@ You need to know:
   that are performed in that method.
 
 
-Getting Started
+Final gif
 ---------------
 
-1. Download and run the app.
+![git](Lab4.gif)
